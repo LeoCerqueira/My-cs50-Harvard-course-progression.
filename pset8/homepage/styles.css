@@ -1,0 +1,130 @@
+body
+{
+    margin:0;
+    background-color:#e7dbce;
+}
+.head
+{
+
+    display: flex;
+    font-size: 40px;
+    justify-content:center;
+    font-family: Snell;
+    font-weight: 500;
+    background-color: whitesmoke;
+}
+
+.head p
+{
+    margin-top:10px;
+
+}
+
+.head img
+{
+    margin-top:19px;
+    width:40px;
+    height:40px;
+    margin-right:10px;
+
+}
+
+.item
+{
+    width:580px;
+    margin-top:30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    height:30px;
+    border-radius:8px;
+
+
+}
+
+.blog
+{
+    margin-left:100px;
+    margin-right: 90px;
+
+
+}
+
+.quem
+{
+    margin-right: 80px;
+
+}
+
+.pic img
+{
+    height:400px;
+    width:400px;
+}
+
+.main
+{
+    margin-top :30px;
+    display:flex;
+    height:600px;
+    background-image:url("04.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+.letreiro
+{
+    color:white;
+    margin-top: auto;
+    margin-bottom: 40px;
+    font-size: 70px;
+    line-height: 40px;
+    margin-left:90px;
+}
+
+.chamada
+{
+    color:white;
+    font-size: 40px;
+    margin-left:90px;
+    margin-top: 40px;
+    margin-bottom: auto;
+    font-style: italic;
+
+}
+
+.bottom
+{
+    line-height: 10px;
+    margin-top: 25px;
+    justify-content: center;
+    width: 350px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height:110px;
+
+}
+
+
+.final
+{
+    flex-direction:column;
+
+}
+
+a:hover
+{
+  color: #ffb566;
+  text-decoration: none;
+}
+
+a
+{
+    color:#404040;
+}
+
+

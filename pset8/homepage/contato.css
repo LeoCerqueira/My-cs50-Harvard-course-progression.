@@ -1,0 +1,109 @@
+.head
+{
+
+    display: flex;
+    font-size: 40px;
+    justify-content:center;
+    font-family: Snell;
+    font-weight: 500;
+    background-color: whitesmoke;
+}
+
+.head p
+{
+    margin-top:10px;
+
+}
+
+.head img
+{
+    margin-top:19px;
+    width:40px;
+    height:40px;
+    margin-right:10px;
+
+}
+
+.topo
+{
+    height:100px;
+    background-color:#e7dbce;
+    display:flex;
+    flex-direction:row;
+    margin-bottom:30px;
+
+}
+
+.topo p
+{
+    font-size:60px;
+    margin-left: 10%;
+    color:#808080;
+
+}
+
+a:hover
+{
+  color: #ffb566;
+  text-decoration: none;
+}
+
+a
+{
+    color:Black;
+}
+
+h4
+{
+    margin-right: 10%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+.bottom
+{
+    line-height: 10px;
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height:130px;
+    background-color:#e7dbce;
+
+}
+
+
+.final
+{
+    margin-top: auto;
+    flex-direction:column;
+    font-weight:bold;
+
+}
+
+.input-group
+{
+    width: 600px;
+    margin: auto;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+    width: 600px;
+    margin: auto;
+}
+
+.sub
+{
+    margin-top:20px;
+    display:flex;
+}
+
+.sub input
+{
+    margin:auto;
+}
